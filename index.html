@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<body>
+
+<p id="check11"> </p>
+
+
+<script>
+// let ilikia = 10;
+//let text = (ilikia < 18) ?  "Anilikos" : "Enilikos";
+
+// document.getElementById('check').innerHTML = text;
+
+let day ;
+let date = new Date().getDay();
+
+
+switch (date) {
+  case 0:
+    day="Sunday";
+    break;
+  case 1:
+    day="Monday";
+    break;
+  case 2:
+    day="Tuesday";
+    break;
+  case 3:
+    day="Wednesday";
+    break;
+  case 4:
+    day="Thursday";
+    break;
+  }
+
+  document.getElementById('check11').innerHTML = "Today is " + day ;
+
+
+
+</script>
+
+</body>
+
+
+
+</html>
+
+
+<!-- εδώ μελετάμε τις περιπτώσεις και επιλέγει ανάλογα την περίσταση.
